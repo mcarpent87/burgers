@@ -13,39 +13,4 @@ The app will store every burger in a database, whether devoured or not.
 Heroku Link:
 https://frozen-headland-48115.herokuapp.com/
 
-Directory structure
-All the recommended files and directories should look like the following structure:
 
-.
-├── config
-│   └── config.json
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── models
-│   ├── index.js
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   ├── assets
-│   │   ├── css
-│   │   │   └── burger_style.css
-│   │   ├── img
-│   │   │   └── ...
-│   │   └── js
-│   │       └── burgers.js
-│   └── test.html
-│
-├── schema.sql
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
