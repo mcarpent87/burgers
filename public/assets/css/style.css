@@ -1,0 +1,42 @@
+.container {
+  color: whitesmoke;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color: black;
+}
+
+.display-4 {
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+}
+
+.lead {
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+}
+
+.jumbotron-fluid {
+  background-color: orangered;
+  font-family: 'Spicy Rice', cursive;
+}
+
+img {
+  position: relative;
+  left:300px; 
+}
+
+.change-devour {
+  position: relative;
+  left: 20px;
+}
+
+.table-first-col {
+  padding-right: 20px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+

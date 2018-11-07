@@ -1,0 +1,43 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <h1 class="display-4">EAT DA BURGER!</h1>
+    <p class="lead">log and devour your favorite burgers</p>
+    <img src="./assets/images/Burger-PNG-Pic.png" width="500px" height="auto">
+    </div>
+  </div>
+</div>
+
+<div class="containers">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3">
+      <table>
+        {{#each burgers}}
+            {{#unless devoured}}
+                {{> burgers/burger-block}}
+            {{/unless}}
+        {{/each}}
+    </table>
+    </div>
+    <div class="col-sm-4">
+      <form class="create-form">
+        <div class="form-group">
+            <label for="name"></label>
+            <textarea id="name" name="burger-name" rows="2" cols="40" placeholder="What do you want to eat?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Burger</button>
+    </form>   
+    </div>
+    <div class="col-sm-4">
+      {{#each burgers}}
+        {{#if devoured}}
+            <div>{{id}}. {{burger_name}}</div>
+        {{/if}}
+     {{/each}}  
+    </div>
+  </div>
+</div>
+
+    
+
+    
