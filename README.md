@@ -1,5 +1,6 @@
-Eat-Da-Burger
-Overview 
+# Eat-Da-Burger
+
+## Overview 
 This app is a burger logger with MySQL, Node, Express, Handlebars and Sequelize, and follows the MVC design pattern.
 
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
