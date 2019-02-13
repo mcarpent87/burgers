@@ -11,7 +11,7 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 The app will store every burger in a database, whether devoured or not.
 
-![screenshot-1](https://i.imgur.com/eiN3oU2.png)
+![screenshot-1](eatdaburger.jpg)
 
 Heroku Link:
 https://frozen-headland-48115.herokuapp.com/
